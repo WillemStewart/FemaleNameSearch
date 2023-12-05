@@ -1,8 +1,0 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(510,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Lab 8.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  Main.cpp
-C:\Users\was0103\Documents\Visual Studio 2022\FemaleNameSearch\Lab 8\Main.cpp(35,33): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-  Name.cpp
-  Generating Code...
-C:\Users\was0103\Documents\Visual Studio 2022\FemaleNameSearch\Lab 8\Name.cpp(73): warning C4715: 'Name::findLinear': not all control paths return a value
-C:\Users\was0103\Documents\Visual Studio 2022\FemaleNameSearch\Lab 8\Name.cpp(97): warning C4715: 'Name::findBinary': not all control paths return a value
-  Lab 8.vcxproj -> C:\Users\was0103\Documents\Visual Studio 2022\FemaleNameSearch\x64\Debug\NameSearch.exe
