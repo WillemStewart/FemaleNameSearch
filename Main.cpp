@@ -52,11 +52,6 @@ int main()
 		nameList.findBinary(newName);
 		end_time = chrono::high_resolution_clock::now();
 		cout << "Binary search took " << chrono::duration_cast<chrono::microseconds>(end_time - start_time).count() << " microseconds." << endl;
-
-//		start_time = chrono::high_resolution_clock::now();
-//		nameList.findRecursive(newName, 0, 1000);
-//		end_time = chrono::high_resolution_clock::now();
-//		cout << "Recursive search took " << chrono::duration_cast<chrono::microseconds>(end_time - start_time).count() << " microseconds." << endl;
 		
 		if (ord <= 0 || ord == 69)
 		{
